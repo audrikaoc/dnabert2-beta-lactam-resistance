@@ -1,0 +1,41 @@
+{
+  "accuracy": 0.9659090909090909,
+  "roc_auc": 0.9748822605965463,
+  "positive_class": {
+    "label": 1,
+    "name": "Resistant",
+    "precision": 1.0,
+    "recall": 0.9387755102040817,
+    "f1_score": 0.968421052631579
+  },
+  "macro_average": {
+    "precision": 0.9642857142857143,
+    "recall": 0.9693877551020409,
+    "f1_score": 0.9656920077972709
+  },
+  "weighted_average": {
+    "precision": 0.9683441558441559,
+    "recall": 0.9659090909090909,
+    "f1_score": 0.9660021265284423
+  },
+  "test_set": {
+    "n_samples": 88,
+    "n_control": 39,
+    "n_resistant": 49
+  },
+  "split": {
+    "group_aware_split": true,
+    "train_samples": 344,
+    "test_samples": 88,
+    "train_groups": 100,
+    "test_groups": 26
+  },
+  "near_duplicate_grouping": {
+    "kmer_size": 15,
+    "similarity_threshold": 0.85,
+    "n_groups": 126,
+    "largest_group_size": 92,
+    "near_duplicate_pairs": 4788,
+    "mixed_label_groups": 0
+  }
+}

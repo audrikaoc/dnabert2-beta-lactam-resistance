@@ -1,0 +1,39 @@
+# Python bytecode and caches
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+.venv-1/
+venv/
+env/
+
+# Local/editor metadata
+.DS_Store
+.idea/
+.vscode/
+
+# Runtime caches
+.matplotlib-cache/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# BLAST generated databases and temporary outputs
+blast_output/
+
+# Local experiment artifacts not needed for reproducible runs
+DNABERT_2/
+triton/
+flash_attn_triton.py
+hugging face transformers
+
+# Hugging Face / model caches if accidentally created locally
+.cache/
+huggingface_cache/
+
+# Logs and temporary files
+*.log
+*.tmp
+tmp/

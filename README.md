@@ -1,5 +1,7 @@
 # DNABERT-2 Embeddings for Beta-Lactam Resistance Classification in *E. coli*
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.21424241.svg)](https://doi.org/10.5281/zenodo.21424241)
+
 This repository contains the code and processed public data for a research project evaluating whether frozen, pre-trained genomic language model embeddings can distinguish beta-lactam resistance-associated *Escherichia coli* sequences from non-resistance-associated control sequences.
 
 The project uses `zhihan1996/DNABERT-2-117M` as a zero-shot feature extractor. DNA sequences are embedded into fixed 768-dimensional vectors, then a Random Forest classifier is trained on those embeddings.

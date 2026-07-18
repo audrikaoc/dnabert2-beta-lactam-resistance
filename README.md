@@ -191,4 +191,5 @@ The leakage-aware results support the hypothesis that frozen DNABERT-2 embedding
 If using this repository or methodology, cite DNABERT-2 and the public sequence resources used to construct the dataset. Relevant software includes PyTorch, Hugging Face Transformers, scikit-learn, Biopython, NumPy, pandas, and matplotlib.
 
 If you use this repository, please cite:
-Chakrobartty, A. (2026). *Evaluating the Efficacy of Pre-trained Genomic Language Model Embeddings in Predicting Beta-Lactam Resistance Levels in Escherichia coli*. Manuscript submitted to the Journal of Emerging Investigators.
+
+Chakrobartty, A. (2026). *DNABERT2 beta-lactam resistance analysis* (Version 1.0.0). Zenodo. https://doi.org/10.5281/zenodo.21424241
